@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsMultipleOf.API", "IsMultipleOf.API\IsMultipleOf.API.csproj", "{28B92694-445B-49E2-AA3C-5600017FFC3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsMultipleOf.API.Test", "IsMultipleOf.API.Test\IsMultipleOf.API.Test.csproj", "{99BE9284-9746-46BF-9052-7095294E8EDA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28B92694-445B-49E2-AA3C-5600017FFC3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28B92694-445B-49E2-AA3C-5600017FFC3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28B92694-445B-49E2-AA3C-5600017FFC3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28B92694-445B-49E2-AA3C-5600017FFC3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99BE9284-9746-46BF-9052-7095294E8EDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99BE9284-9746-46BF-9052-7095294E8EDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99BE9284-9746-46BF-9052-7095294E8EDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99BE9284-9746-46BF-9052-7095294E8EDA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9A894D9E-F5C0-47A9-BE56-FD1D0F5122FA}
+	EndGlobalSection
+EndGlobal
