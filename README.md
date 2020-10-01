@@ -14,4 +14,4 @@ This API calculate if each element of an array of numbers is multiple of a speci
    - Set the _divisor_ value in the field, for example _11_.
    - Set the _request body_, for example: ```{ "numbers": [112233, 30800, 2937, 323455693, 5038297, 112234] }```
    - Press the button _Execute_.
-   - Chack the response.
+   - Check the response.
