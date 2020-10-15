@@ -14,7 +14,7 @@ namespace IsMultipleOf.API.Core
             {
                 int even = 0;
                 int odd = 0;
-                int[] units = numberResponse.number.ToString().Select(c => int.Parse(c.ToString())).ToArray();
+                int[] units = Math.Abs(numberResponse.number).ToString().Select(c => int.Parse(c.ToString())).ToArray();
 
                 for (int i = 0; i < units.Length; i++)
                 {
@@ -28,7 +28,8 @@ namespace IsMultipleOf.API.Core
                     }
                 }
 
-                numberResponse.isMultiple = (odd - even == 0) || (Math.Abs((odd - even) % 11) == 0);
+                numberResponse.isMultiple = numberResponse.number != 0 && 
+                    ((odd - even == 0) || (Math.Abs((odd - even) % 11) == 0));
             }
         }
     }
