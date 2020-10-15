@@ -19,7 +19,7 @@ namespace IsMultipleOf.API.Core
         {
             foreach (var number in isMultipleOfResponse?.result)
             {
-                number.isMultiple = number.number > 0 && (number.number % this.divisor == 0);
+                number.isMultiple = number.number != 0 && (number.number % this.divisor == 0);
             }
         }
     }
