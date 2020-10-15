@@ -17,6 +17,7 @@ namespace IsMultipleOf.API.Controllers
     {
         [Route("{divisor}")]
         [HttpPost]
+        [ProducesResponseType(StatusCodes.Status200OK)]
         public ActionResult<IsMultipleOfResponse> Post([Range(1, int.MaxValue)] int divisor,
             IsMultipleOfRequest isMultipleOfRequest)
         {
